@@ -15,6 +15,7 @@ After installation create a new project
 
 To run project in xcode (simulator and device)
 
+In Ios simulator…WL.Connect fails to avoid this
 Disable ATS to connect to mfp server on ios simulator
 
 https://mobilefirstplatform.ibmcloud.com/blog/2015/09/09/ats-and-bitcode-in-ios9/
@@ -26,6 +27,8 @@ https://mobilefirstplatform.ibmcloud.com/blog/2015/09/09/ats-and-bitcode-in-ios9
     </dict>
 
 To run app on device 
+
+On device while running the app on device …build fails…to avoid this 
 Disable Bitcode
 http://stackoverflow.com/questions/31205133/how-to-enable-bitcode-in-xcode-7
 
