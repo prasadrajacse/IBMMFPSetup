@@ -1,0 +1,75 @@
+https://mobilefirstplatform.ibmcloud.com/tutorials/en/foundation/7.1/advanced-client-side-development/using-cli-to-create-build-and-manage-mobilefirst-project-artifacts/
+
+Download the cli installer and install.
+In Applications IBM folder will be created.
+After installation restart mac.
+In terminal ---  $ mfp help to confirm the installation.
+
+
+After installation create a new project
+
+1.start server - In side server open worklight console
+2.push app and adapters
+3.preview app
+
+
+To run project in xcode (simulator and device)
+
+Disable ATS to connect to mfp server on ios simulator
+
+https://mobilefirstplatform.ibmcloud.com/blog/2015/09/09/ats-and-bitcode-in-ios9/
+
+<key>NSAppTransportSecurity</key>
+    <dict>
+    <key>NSAllowsArbitraryLoads</key>
+      <true/>
+    </dict>
+
+To run app on device 
+Disable Bitcode
+http://stackoverflow.com/questions/31205133/how-to-enable-bitcode-in-xcode-7
+
+open xcode project file in xcode
+
+
+To run project in android studio (emulator and device)
+
+First open android studio then
+open existing android studio project
+set android sdk path to downloaded sdk folder
+Run button is disabled by default
+edit configurations to run the project as android studio project
+use + button to create android application and name module
+select device or emulator 
+Now run button is enabled and run 
+
+
+
+
+
+
+
+
+
+Setting up Android 
+
+Download SDK and unzip to documents
+
+Then set environment variable
+
+http://stackoverflow.com/questions/28296237/set-android-home-environment-variable-in-mac
+
+Installing emulator
+
+http://stackoverflow.com/questions/9940732/how-to-run-avd-manager-on-mac
+
+Installing emulator requirements
+
+http://stackoverflow.com/questions/29136173/emulator-error-x86-emulation-currently-requires-hardware-acceleration
+
+/Users/durgaprasad/Documents/android-sdk-macosx/tools
+
+/Users/durgaprasad/Documents/android-sdk-macosx
+
+
+http://stackoverflow.com/questions/9940732/how-to-run-avd-manager-on-mac
