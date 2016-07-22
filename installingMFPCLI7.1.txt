@@ -1,7 +1,9 @@
 https://mobilefirstplatform.ibmcloud.com/tutorials/en/foundation/7.1/advanced-client-side-development/using-cli-to-create-build-and-manage-mobilefirst-project-artifacts/
 
-Download the cli installer and install.
-In Applications IBM folder will be created.
+Download the MFP 7.1 CLI installer and install.
+After installation, In Applications IBM folder will be created.
+In terminal ---  $ mfp help
+If error or no response.
 After installation restart mac.
 In terminal ---  $ mfp help to confirm the installation.
 
@@ -50,13 +52,10 @@ Now run button is enabled and run
 
 
 
-
-
-
-
 Setting up Android 
 
 Download SDK and unzip to documents
+/Users/durgaprasad/Documents/android-sdk-macosx
 
 Then set environment variable
 
@@ -64,15 +63,36 @@ http://stackoverflow.com/questions/28296237/set-android-home-environment-variabl
 
 Installing emulator
 
+/Users/durgaprasad/Documents/android-sdk-macosx/tools
+
 http://stackoverflow.com/questions/9940732/how-to-run-avd-manager-on-mac
 
 Installing emulator requirements
 
 http://stackoverflow.com/questions/29136173/emulator-error-x86-emulation-currently-requires-hardware-acceleration
 
+To set up android environment for ionic development android studio or eclipse is not needed.
+Just download and setup android SDK.
+Run SDK manager to install APIs
+From below path double click on android file.
+
 /Users/durgaprasad/Documents/android-sdk-macosx/tools
 
-/Users/durgaprasad/Documents/android-sdk-macosx
+SDK manager will be opened…download required stuff.
+
+Similarly open AVD manager and create emulator.
+
+
+To test the setup create an ionic project and add android platform.
+Building for the android app prompts error of setting android home variable.
+Set Android Home variable not to get confused to java home variable.
+
+Android home is set pointing to android sdk and java home is set pointing to java path.
+
+/Library/Java/JavaVirtualMachines/
+
+
+
 
 
 http://stackoverflow.com/questions/9940732/how-to-run-avd-manager-on-mac
