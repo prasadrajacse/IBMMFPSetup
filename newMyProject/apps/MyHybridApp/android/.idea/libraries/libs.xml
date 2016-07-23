@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="libs">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/native/libs/bcprov.jar!/" />
+      <root url="jar://$PROJECT_DIR$/native/libs/cordova.jar!/" />
+      <root url="jar://$PROJECT_DIR$/native/libs/worklight-android.jar!/" />
+      <root url="jar://$PROJECT_DIR$/native/libs/android-async-http.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
